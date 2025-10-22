@@ -38,6 +38,11 @@ public class ARPlaneFilth : MonoBehaviour
 
                     GameObject filthInstance = Instantiate(filthPrefab, transform);
                     filthInstance.transform.localPosition = positionOffset;
+
+                    // Add random scale and rotation variation
+                    filthInstance.transform.localScale = Vector3.one * Random.Range(0.2f, 0.6f);
+                    filthInstance.transform.localRotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+
                     filths.Add(filthInstance);
                 }
             }

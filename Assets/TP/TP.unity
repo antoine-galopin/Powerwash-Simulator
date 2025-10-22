@@ -2933,7 +2933,7 @@ PrefabInstance:
       objectReference: {fileID: 1891673207}
     - target: {fileID: 3339367952642848919, guid: 86a5bf68cb51f4e44bd3893bd22a2ba7, type: 3}
       propertyPath: m_ObjectPrefabs.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3339367952642848919, guid: 86a5bf68cb51f4e44bd3893bd22a2ba7, type: 3}
       propertyPath: m_ObjectPrefabs.Array.data[0]
@@ -2955,6 +2955,10 @@ PrefabInstance:
       propertyPath: m_ObjectPrefabs.Array.data[4]
       value: 
       objectReference: {fileID: 6711729337326359388, guid: 1c9ecf22c1c610444bcfd0d4b84ff8a4, type: 3}
+    - target: {fileID: 3339367952642848919, guid: 86a5bf68cb51f4e44bd3893bd22a2ba7, type: 3}
+      propertyPath: m_ObjectPrefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 6711729337326359388, guid: 4b114eabc91c6e34a959259ba84f399f, type: 3}
     - target: {fileID: 3540285630127457094, guid: 86a5bf68cb51f4e44bd3893bd22a2ba7, type: 3}
       propertyPath: m_Name
       value: MR Interaction Setup
